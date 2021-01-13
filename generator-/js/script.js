@@ -17,7 +17,7 @@ function getRandomQuote (arr) {
  * `printQuote` function
 ***/
 function printQuote () {
-  let quoteToPrint = getRandomQuote[quotes];
+  let quoteToPrint = getRandomQuote(quotes);
   let HTMLstring = 
   `<p class="quote">${quoteToPrint.quote}</p>
   <p class="source">${quoteToPrint.source}`;
